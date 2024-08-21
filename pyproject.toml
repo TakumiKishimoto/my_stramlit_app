@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "my-streamlit-app"
+version = "0.1.0"
+description = ""
+authors = ["kishimoto <kishimoto88@sanken.osaka-u.ac.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.37.1"
+requests = "^2.32.3"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
