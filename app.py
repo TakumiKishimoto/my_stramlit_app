@@ -2,8 +2,8 @@ import streamlit as st
 import requests
 
 # RenderにデプロイされたFastAPIのURL
-# API_URL = "https://my-fastapi-app-helk.onrender.com"
-API_URL = "http://localhost:8000"
+API_URL = "https://my-fastapi-app-helk.onrender.com"
+# API_URL = "http://localhost:8000"
 
 # タイトル
 st.title("Iris Flower Prediction")
